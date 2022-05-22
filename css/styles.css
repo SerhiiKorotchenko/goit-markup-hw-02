@@ -24,6 +24,7 @@ body {
 
 .logo {
     font-family: var(--secondary-font);
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     color: var(--color-font-dark);
@@ -44,7 +45,6 @@ body {
     color: var(--main-font-color);
     text-decoration: none;
     font-family: var(--main-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
@@ -55,7 +55,6 @@ body {
     color: var(--secondary-font-color);
     text-decoration: none;
     font-family: var(--main-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
@@ -77,7 +76,6 @@ body {
 }
 .hero-text {
     font-family: var(--main-font);
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -91,7 +89,6 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: var(--main-font);
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -109,11 +106,9 @@ body {
     margin-top: 95px;
     padding: 0px 150px 0px 150px;
 }
-.description-list {
-    
-}
 .description-heading{
     font-family:var(--main-font);
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.15;
     text-transform: uppercase;
@@ -133,6 +128,7 @@ body {
 }
 .info-heading, .masters-heading {
     font-family: var(--main-font);
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -148,6 +144,7 @@ body {
 }
 .masters-name {
     font-family: var(--main-font);
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -168,6 +165,7 @@ body {
 }
 .logo-footer {
     font-family: var(--secondary-font);
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     color: var(--main-light);
@@ -181,7 +179,6 @@ body {
 .footer-maps, .footer-mail, .footer-phone {
     font-family: var(--main-font);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
@@ -197,6 +194,7 @@ body {
 }
 .portfolio-name {
     font-family:var(--main-font);
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     color: var(--main-font-color);
@@ -215,7 +213,6 @@ body {
 
 .button {
     font-family: var(--main-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
