@@ -48,8 +48,8 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
-
 }
+
 .mail, .phone {
     margin-right: 50px;
     color: var(--secondary-font-color);
@@ -62,6 +62,9 @@ body {
 }
 .navigation-link:hover, .mail:hover, .phone:hover,
 .navigation-link:focus, .mail:focus, .phone:focus {
+    color: var(--color-hover);
+}
+.current {
     color: var(--color-hover);
 }
 .mail {
