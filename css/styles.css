@@ -39,7 +39,7 @@ body {
     display: flex;
     display: inline-block;
 }
-.navigation-link, .mail, .phone {
+.navigation-link  {
     margin-right: 50px;
     color: var(--main-font-color);
     text-decoration: none;
@@ -49,6 +49,16 @@ body {
     font-size: 14px;
     line-height: 1.15;
 
+}
+.mail, .phone {
+    margin-right: 50px;
+    color: var(--secondary-font-color);
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
 }
 .navigation-link:hover, .mail:hover, .phone:hover,
 .navigation-link:focus, .mail:focus, .phone:focus {
